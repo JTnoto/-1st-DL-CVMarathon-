@@ -1,0 +1,24 @@
+底下幫同學整理幾間知名企業的 blog 或機器學習網站 (自行搜尋也可)，這些網站都會整理最新的機器學習專案或者是技術文章，請挑選一篇文章閱讀並試著回答
+1. 專案的目標？ (要解決什麼問題）
+2. 使用的技術是？ (只需知道名稱即可，例如：使用 CNN 卷積神經網路做影像分類)
+3. 資料來源？ 
+
+- [Google AI blog](https://ai.googleblog.com/)
+- [Facebook Research blog](https://research.fb.com/blog/)
+- [Apple machine learning journal](https://machinelearning.apple.com/)
+- [機器之心](https://www.jiqizhixin.com/)
+- [雷鋒網](http://www.leiphone.com/category/ai)
+
+[Google推出對嘴挑戰賽](https://www.ithome.com.tw/news/140210?fbclid=IwAR06SzjWUzni-4Ns6Y8q-wYUxVue0_en6AJgaU9WBUjQeDa1qr4GzrJsThU)
+
+1.專案目標:
+
+實驗目的在協助訓練AI了解人說話時的表情動作。這些知識可幫助Google建立一套系統來追蹤無法正常說話的族群，像是肌萎縮性側索硬化症（ALS，俗稱漸凍人症）患者，以便未來能觀察他們的肌肉動作而猜測他們想說的話，甚至利用語音合成技術來替他們發聲。
+
+2.技術:
+
+使用google TensorFlow.js facemesh模型，TensorFlow提供即時高密度的影像處理去計算臉部表情重要的特徵，且僅用webcam(網路攝影機)和身邊的設備進行機器學習。將要點圍繞在嘴巴和嘴唇周遭偵測你會如何同步唱出歌詞。
+
+3.資料來源:
+
+使用過的人都會成為數據的來源
